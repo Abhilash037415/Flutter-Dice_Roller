@@ -5,8 +5,6 @@ class GradientContainer extends StatelessWidget {
   const GradientContainer(this.colors, {super.key});
   final List<Color> colors;
 
-  rollDice() {}
-
   @override
   Widget build(context) {
     return Container(
